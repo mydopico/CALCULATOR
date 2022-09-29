@@ -1,0 +1,71 @@
+body {
+    background: rgb(219, 214, 214) !important;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: rgb(245, 180, 94);
+    margin-left: 10%;
+}
+
+.navbar-brand:hover {
+    color: #e58a80;
+}
+
+.calculator {
+    border-collapse: separate;
+    padding: 8px;     
+    height: 460px;
+    width: 440px;   
+    margin-top: 2vh;       
+}
+
+.display-box {
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    text-align: right;
+    padding-right: 10px;   
+    background-color: #dcdbe1;
+    border: solid white 0.5px;    
+    color: rgb(100, 97, 97);
+    border-radius: 12px;
+    width: 100%;
+    height: 100px;   
+}
+
+.d-btn {    
+    color: rgb(249, 146, 10) !important;
+    font-weight: bold;    
+}
+
+#display-btn {
+    background-color: rgb(249, 146, 10);
+    font-weight: bold;
+}
+
+#btn {
+    background-color: rgb(249, 146, 10);
+}
+
+input[type=button] {
+    font-family: 'lato', sans-serif;
+    font-size: 28px;    
+    background-color: rgba(227, 200, 165, 0.6);    
+    color: white;    
+    border: none;  
+    width: 100px;
+    border-radius: 8px;
+    height: 98%;
+    outline: none;    
+    box-shadow: 1px 1px 1px 1px rgba(71, 71, 71, 0.2);
+    transition: all .2s ease-in-out;
+}
+
+input:hover[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
